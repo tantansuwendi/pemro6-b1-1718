@@ -1,4 +1,4 @@
-public class DataTypeExample {
+public class Tugas1 {
   public static void main(String[] args) {
         String text = "text example";
         int bilangan = 8;
