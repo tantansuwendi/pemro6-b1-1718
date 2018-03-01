@@ -10,4 +10,4 @@ Steps:
 - cd pemro6-b1-1718
 - git status
 
-
+update branch rizki
