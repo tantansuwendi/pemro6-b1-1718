@@ -8,6 +8,6 @@ public class Tugas_1 {
         System.out.println("bilangan: " + bilangan);
         System.out.println("bilanganPecahan: " + bilanganPecahan);
         System.out.print("bilangan dan bilanganPecahan : " + bilangan); System.out.println(" dan " + bilanganPecahan);
-        // Tugas tampilkan bilangan dan bilangan pecahan
+        // Tugas tampilkan bilangan dan bilangan pecahana
   }
 }
