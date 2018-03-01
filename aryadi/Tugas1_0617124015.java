@@ -6,7 +6,7 @@ public class DataTypeExample {
 
         System.out.println("Text: " + text);
         // Tugas tamplkan bilangan dan bilangan pecahan
-		System.out.println("Ini adalah bentuk bilangan : " + bilangan);
+	System.out.println("Ini adalah bentuk bilangan bulat : " + bilangan);
         System.out.println("Ini adalah bentuk bilangan pecahan : " + bilanganPecahan);
   }
 }
