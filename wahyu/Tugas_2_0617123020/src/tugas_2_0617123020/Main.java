@@ -12,15 +12,12 @@ import java.util.Scanner;
  * @author ASUS
  */
 public class Main {
-    String nama_universitas, alamat, kode_pos, akreditasi;
-    int jml_fakultas, jml_prodi, jml_mhs;
     
     public static void main(String[] args) {
         
 //        inisiasi variabel referensi
         RumahSakit rs = new RumahSakit();
         Hotel ht = new Hotel();
-        Universitas unv = new Universitas();
         
 //        inisiasi untuk membuat inputan
         Scanner sc = new Scanner(System.in);
