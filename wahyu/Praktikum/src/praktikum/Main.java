@@ -9,9 +9,32 @@ import java.util.Scanner;
 
 /**
  *
- * @author ASUS
+ * @author @WahyuWehaye
  */
 public class Main {
+//    Example Constanta
+    public static final String KEY_ACCESS = "KEY_ACCESS";
+    public static final int NUM_DAYS_PER_YEARS = 365;
+    
+//    Tipe Data dalam Java
+    
+//    Tipe Data Primitif
+    /*
+    Bilangan
+    int = bilangan bulat
+    double = bilangan pecahan
+    
+    Char
+    char = karakter like string
+    
+    Logika
+    boolean isEnable true false
+    
+    
+    */
+    
+//    Tipe Data Reference
+    
     
     public static void main(String[] args) {
         String nama, nim, kelas;
