@@ -29,7 +29,7 @@ public class Tugas2_0617123008 {
         System.out.println("Asal SMP                : " + formulir.AsalSmp);
         System.out.println("Alamat                  : " + formulir.Alamat);
         System.out.println("Nama Ortu               : " + formulir.NamaOrtu);
-        System.out.println("No Telpon               : " + formulir.telp);
+        System.out.println("No Tlp                  : " + formulir.telp);
         
         
         
