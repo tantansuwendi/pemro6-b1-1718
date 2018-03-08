@@ -43,8 +43,8 @@ public class Main {
             mhs2 = mhs;
             
             System.out.println("Ini Data Mahasiswa");
-            System.out.println("Nama :" + mhs2.nama);
-            System.out.println("NPM :" + mhs2.npm);
-            System.out.println("Usia :" + mhs2.usia);
+            System.out.println("Nama : " + mhs2.nama);
+            System.out.println("NPM : " + mhs2.npm);
+            System.out.println("Usia : " + mhs2.usia);
     }
 }
