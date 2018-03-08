@@ -6,10 +6,10 @@
 
 /**
  *
- * @author STUDENT
+ * @author Ahmad Muhsin
  */
 public class Mahasiswa {
-    String nama;
     String npm;
+    String nama;
     int usia;
 }
