@@ -18,7 +18,7 @@ public class TampilDataKeluarga {
 		System.out.println("NIK Ayah		: " + data.nikAyah);
 		System.out.println("Nama Ayah		: " + data.namaAyah);
 		System.out.println("=====================================");
-		System.out.println("NIK Ibu			: " + data.nikIbu);
+		System.out.println("NIK Ibu		: " + data.nikIbu);
 		System.out.println("Nama Ibu		: " + data.namaIbu);
 		System.out.println("=====================================");
 		System.out.println("NIK Anak Ke-1	: " + data.nikAnak1);
