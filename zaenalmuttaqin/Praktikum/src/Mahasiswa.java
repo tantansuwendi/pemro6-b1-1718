@@ -6,12 +6,11 @@
 
 /**
  *
- * @author A43SD
+ * @author hp
  */
 public class Mahasiswa {
-    //tipe data reference
     String npm;
-    String nama ;
+    String nama;
     int usia;
     
 }

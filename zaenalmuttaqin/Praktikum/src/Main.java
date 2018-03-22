@@ -6,54 +6,45 @@
 
 /**
  *
- * @author A43SD
+ * @author hp
  */
 public class Main {
-    
-    //1. Tipe data reference
-    //Example Constanta
-    public static final String KEY_ACCESS = "Test" ; //Access modifile
+    public static final String KEY_ACCESS = "KEY_ACCESS";
     public static final int NUM_DAYS_PER_YEARS = 365;
     
     public static void main(String[] args) {
         System.out.println("Main Kelas");
         
-        //2. Tipe data primitive(tipe data dasar)
-       
-        // Bilangan
-        int bilanganBulat = 0;//camelcase kecilBesar
-        double bilanganPecahan = 5.5;
-        int durasi = 2 * NUM_DAYS_PER_YEARS;
+        //tipe data primitive
+            //adalah tipe data dasar
+            //Bilangan
+            int bilangatBulat = 0;
+            double bilanganPecahan = 5.5;
+            int durasi = 2 * NUM_DAYS_PER_YEARS;
+            
+            //char
+            char karakter = 'A';
+            
+            //logika
+            boolean isEnabled = true;
         
-        //char
-        char karakter = 'A';
-       
-        //logika
-        boolean isEnabled = true;
-
-       //tipe data reference 
-       
-        Mahasiswa mhs = new Mahasiswa();
-        mhs.nama = "Dia";
-        mhs.npm = "0617123008";
-        mhs.usia = 25;
-
-        Mahasiswa mhs2 = new Mahasiswa();
-        mhs2.nama = "Zaenal";
-        mhs2.npm = "0617123008";
-        mhs2.usia = 20;
-
-       //tidak baik 
-        mhs2 = mhs;
-
-        System.out.println("Ini Data Mahasiswa ");
-        System.out.println("Nama : " + mhs2.nama);
-        System.out.println("NPM  : " + mhs2.npm);
-        System.out.println("Usia : " + mhs2.usia);
-        
-        
-        
-        
+        //tipe data reference
+        //adalah tipe data gabungan
+            Mahasiswa mhs = new Mahasiswa();
+            mhs.nama = "Zaenal";
+            mhs.npm = "0617123008";
+            mhs.usia = 25;
+            
+            Mahasiswa mhs2 = new Mahasiswa();
+            mhs2.nama = "Muttaqin";
+            mhs2.npm = "061712300101";
+            mhs2.usia = 22;
+            
+            mhs2 = mhs;
+            
+            System.out.println("Ini Data Mahasiswa");
+            System.out.println("Nama : " + mhs2.nama);
+            System.out.println("NPM : " + mhs2.npm);
+            System.out.println("Usia : " + mhs2.usia);
     }
-    
 }
